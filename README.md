@@ -23,7 +23,7 @@ Since this extension is not yet on the Chrome Web Store, you can install it manu
 ### Step 1: Download the Source Code
 1.  Clone this repository to your local machine:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/codeforces-tag-hider.git](https://github.com/YOUR_USERNAME/codeforces-tag-hider.git)
+    git clone [https://github.com/YOUR_USERNAME/codeforces-tag-hider.git](https://github.com/anki2806/codeforces-tag-hider)
     ```
     *(Or simply download the ZIP file and extract it).*
 
