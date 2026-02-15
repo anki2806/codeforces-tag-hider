@@ -1,0 +1,24 @@
+{
+    "manifest_version" : 3,
+    "name" : "Codeforces Problems Tag hidder",
+    "icons" : {
+        "16" : "Raj.png",
+        "32" : "Raj.png",
+        "48" : "Raj.png"
+    },
+    "version" : "1.0.0",
+    "background" : {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions":["scripting", "storage", "activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["https://codeforces.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
