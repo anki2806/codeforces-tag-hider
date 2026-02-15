@@ -17,7 +17,7 @@
     "permissions":["scripting", "storage", "activeTab"],
     "content_scripts": [
         {
-            "matches": ["https://codeforces.com/*"],
+            "matches": ["https://codeforces.com/problemset/problem/*"],
             "js": ["content.js"]
         }
     ]
