@@ -2,9 +2,9 @@
     "manifest_version" : 3,
     "name" : "Codeforces Problems Tag hidder",
     "icons" : {
-        "16" : "Raj.png",
-        "32" : "Raj.png",
-        "48" : "Raj.png"
+        "128" : "Logo_128x128.png",
+        "32" : "Logo_32x32.png",
+        "48" : "Logo_48x48.png"
     },
     "version" : "1.0.0",
     "background" : {
